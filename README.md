@@ -189,16 +189,6 @@ crowd/
 ├── requirements.txt             # Python dependencies
 └── README.md                    # This file
 ```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **CUDA out of memory**: Reduce frame resolution or use CPU
-2. **Video codec errors**: Install codec packages or convert video format
-3. **Slow processing**: Use frame skipping or reduce resolution
-4. **Model not found**: The model will initialize without pre-trained weights
-
 ## Training Your Own Model
 
 To train a model on your own data:
@@ -212,17 +202,5 @@ To train a model on your own data:
 
 This code is provided for educational and research purposes. Please ensure you have proper permissions when using surveillance footage.
 
-## Contributing
 
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
-
-## References
-
-- CSRNet: Dilated Convolutional Neural Networks for Understanding the Highly Congested Scenes
-- MCNN: Multi-column Convolutional Neural Network for Crowd Counting
-- ShanghaiTech Dataset: https://github.com/desenzhou/ShanghaiTechDataset
-
-## Support
-
-For questions or issues, please open an issue on the repository or refer to the example usage scripts.
 
